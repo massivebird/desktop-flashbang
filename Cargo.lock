@@ -366,6 +366,14 @@ dependencies = [
 ]
 
 [[package]]
+name = "desktop-flashbang"
+version = "0.1.0"
+dependencies = [
+ "pixels",
+ "winit",
+]
+
+[[package]]
 name = "dispatch"
 version = "0.2.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -967,14 +975,6 @@ dependencies = [
  "thiserror",
  "ultraviolet",
  "wgpu",
-]
-
-[[package]]
-name = "pixels-practice"
-version = "0.1.0"
-dependencies = [
- "pixels",
- "winit",
 ]
 
 [[package]]
